@@ -4,6 +4,7 @@
   "description": "Generate web font subsets",
   "bin": "lib/bin.js",
   "main": "index.js",
+  "preferGlobal": true,
   "keywords": [
     "font",
     "fonts",
