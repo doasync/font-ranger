@@ -5,9 +5,14 @@ Optimize your webfont loading! Generate the most optimal web font subsets!
 
 Installation
 ------------
-Installation is optional (see usage)
+Global installation is optional (use `npx`):
 ```bash
 npm i -g font-ranger
+```
+
+**Font-Ranger** uses `fonttools` and `brotli` (for woff2), you may need to install both tools (Ubuntu example):
+```
+sudo apt install fonttools brotli
 ```
 
 Usage
