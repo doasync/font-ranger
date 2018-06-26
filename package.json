@@ -1,0 +1,35 @@
+{
+  "name": "font-ranger",
+  "version": "0.0.0",
+  "description": "Generate web font subsets",
+  "bin": "lib/bin.js",
+  "main": "index.js",
+  "keywords": [
+    "font",
+    "fonts",
+    "webfont",
+    "web-font",
+    "subset",
+    "woff",
+    "woff2",
+    "ttf",
+    "fontface",
+    "font-face",
+    "convert",
+    "fonttools",
+    "unicode",
+    "range",
+    "web",
+    "css"
+  ],
+  "author": "doasync",
+  "license": "MIT",
+  "dependencies": {
+    "filesize": "^3.6.1",
+    "fs-extra": "^6.0.1",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-bundle": "^2.0.1"
+  }
+}
