@@ -79,6 +79,7 @@ CLI options
   -l, --lower-case     Convert font name to lower case                 [boolean]
   -e, --keep-ext       Keep original font extension                    [boolean]
   -w, --use-woff       Use woff instead of default woff2               [boolean]
+  -a, --use-both       Use woff and woff2 at the same time             [boolean]
   -c, --css            Generate css file with @font-face rules         [boolean]
   -m, --font-family    Specify "font-family" for your css file          [string]
   -b, --font-weight    Specify "font-weight" for your css file          [string]
