@@ -25,6 +25,9 @@
   ],
   "author": "doasync",
   "license": "MIT",
+  "scripts": {
+    "help": "node lib/bin --help"
+  },
   "dependencies": {
     "command-exists": "^1.2.7",
     "filesize": "^3.6.1",
