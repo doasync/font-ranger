@@ -1,6 +1,6 @@
 {
   "name": "font-ranger",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Generate web font subsets",
   "bin": "lib/bin.js",
   "main": "index.js",
