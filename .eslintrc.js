@@ -42,5 +42,6 @@ module.exports = {
         }
       }
     ],
+    'linebreak-style': 'off',
   }
 };
