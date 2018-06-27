@@ -24,7 +24,7 @@ Usage
 npx font-ranger --help
 ```
 
-You just take your single font file and split it to multiple subsets using unicode ranges from Google Fonts:
+This tool takes your single font file and splits it to multiple subsets using unicode ranges from Google Fonts:
 - Latin
 - Latin Extended
 - Cyrillic
@@ -86,7 +86,6 @@ Options:
   -e, --keep-ext       Keep original font extension                    [boolean]
   -w, --use-woff       Use woff instead of default woff2               [boolean]
   -a, --use-both       Use woff and woff2 at the same time             [boolean]
-  -c, --css            Generate css file with @font-face rules         [boolean]
   -m, --font-family    Specify "font-family" for your css file          [string]
   -b, --font-weight    Specify "font-weight" for your css file          [string]
   -s, --font-style     Specify "font-style" for your css file           [string]
