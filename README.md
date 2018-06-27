@@ -83,6 +83,7 @@ CLI options
   -m, --font-family    Specify "font-family" for your css file          [string]
   -b, --font-weight    Specify "font-weight" for your css file          [string]
   -s, --font-style     Specify "font-style" for your css file           [string]
+  -i, --font-display   Specify "font-display" for your css file         [string]
   -u, --url-prefix     Prefix for your @font-face urls                  [string]
   -x, --local          Use local name to check user’s system font       [string]
   -d, --skip-css       Do not generate css file                        [boolean]
