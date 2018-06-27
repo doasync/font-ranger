@@ -74,6 +74,38 @@ Why `unicode-range`?
 
 The purpose of this descriptor is to allow the font resources to be segmented so that a browser only needs to download the font resource needed for the text content of a particular page. For example, a site with many localizations could provide separate font resources for English, Greek and Japanese. For users viewing the English version of a page, the font resources for Greek and Japanese fonts wouldn't need to be downloaded, **saving bandwidth**.
 
+Tips
+----
+
+To know what font variants are being used, the browser must parse all the HTML and all the CSS. Only after all of that will any font files be requested. If we want to kick things off more quickly, we have to use preloading:
+
+```html
+<link rel="preload" href="/fonts/Roboto/roboto-regular.latin.woff2" as="font" type="font/woff2" crossorigin>
+```
+
+Fonts inside
+------------
+
+- roboto-light
+- roboto-regular
+- roboto-medium
+
+Just run a command to generate subsets for your desired font:
+```
+npx font-ranger roboto-regular
+```
+
+Defaults: lowercase, woff2/woff, normal, swap, locals, root-url
+
+Destination folder is ./fonts/${name}/**
+
+You can also just import fonts and css directly from a package:
+
+```
+import 'font-ranger/fonts/Roboto/roboto-medium.css';
+import 'font-ranger/fonts/Roboto/roboto-regular.latin.woff2';
+```
+
 CLI options
 -----------
 
@@ -96,29 +128,6 @@ Options:
   -t, --copy-original  Copy original file to the output folder         [boolean]
   -h, --help           Show help                                       [boolean]
   -v, --version        Show version number                             [boolean]
-```
-
-Fonts inside
-------------
-
-- roboto-light
-- roboto-regular
-- roboto-medium
-
-Just run a command to generate subsets for your desired font:
-```
-npx font-ranger roboto-regular
-```
-
-Defaults for packed fonts: lowercase name, woff2/woff, normal, swap, locals, root-url
-
-Destination folder is ./fonts/${name}/**
-
-You can also just import fonts and css directly from a package:
-
-```
-import 'font-ranger/fonts/Roboto/roboto-medium.css';
-import 'font-ranger/fonts/Roboto/roboto-regular.latin.woff2';
 ```
 
 Author
