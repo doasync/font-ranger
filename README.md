@@ -1,3 +1,20 @@
+![Font-Ranger logo](https://i.imgur.com/TypYDdR.png)
+
+[![NPM Version][npm-image]][npm-url] [![License MIT][license-image]][license-url] [![NPM Downloads][downloads-image]][npm-url] [![GitHub issues][issues-image]][issues-url] [![Telegram][telegram-image]][telegram-url] [![Tweet][twitter-image]][twitter-url]
+
+[npm-image]: https://img.shields.io/npm/v/font-ranger.svg
+[npm-url]: https://www.npmjs.com/package/font-ranger
+[downloads-image]: https://img.shields.io/npm/dw/font-ranger.svg
+[deps-image]: https://david-dm.org/doasync/font-ranger.svg
+[issues-image]: https://img.shields.io/github/issues/doasync/font-ranger.svg
+[issues-url]: https://github.com/doasync/font-ranger/issues
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://raw.githubusercontent.com/doasync/font-ranger/master/LICENSE
+[twitter-image]: http://i.imgur.com/VYWV3yd.png
+[twitter-url]: https://twitter.com/home?status=Split%20your%20fonts%20into%20smaller%20subsets,%20optimize%20them%20and%20generate%20CSS%20rules%3A%0Ahttps%3A//www.npmjs.com/package/font-ranger
+[telegram-image]: http://i.imgur.com/WANXk3d.png
+[telegram-url]: https://t.me/doasync
+
 Overdrive… Accelerate! 🚀
 ======================
 
