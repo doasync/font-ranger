@@ -1,6 +1,6 @@
 {
   "name": "font-ranger",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Split your fonts into smaller subsets, optimize them and generate css rules",
   "bin": "lib/bin.js",
   "main": "index.js",
