@@ -2,8 +2,8 @@ Overdrive… Accelerate! 🚀
 ======================
 
 Optimize your webfont loading! Split a large Unicode font into smaller subsets
-(Latin, Cyrillic etc.) and using `unicode-range` browser will only download
-the subset needed for a particular page.
+(Latin, Cyrillic etc.) and browser will only download the subset needed
+for a particular page (using `unicode-range`).
 
 With **Font-Ranger** you can:
  - Generate subsets for each language you support
@@ -45,7 +45,7 @@ pip install fonttools brotli
 Usage
 -----
 
-`npx` - an official npm tool to run packages. Use it to run `font-ranger` without installation (or local copy is used if installed):
+`npx` - an official npm tool to run packages. Use it to run `font-ranger` without installation (or with local installation):
 
 ```bash
 npx font-ranger --help
@@ -104,7 +104,7 @@ Google Fonts
 
 You can download source fonts from https://github.com/google/fonts
 
-After that just process files (e.g. raw ttf) using Font-Ranger
+After that just process files (e.g. raw ttf) using **Font-Ranger**
 
 Tips
 ----
