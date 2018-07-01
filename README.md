@@ -121,7 +121,7 @@ Google Fonts
 
 You can download source fonts from https://github.com/google/fonts
 
-After that just process files (e.g. raw ttf) using **Font-Ranger**
+After that just process files (e.g. ttf) using **Font-Ranger**
 
 Tips
 ----
@@ -165,7 +165,7 @@ Options:
 API
 ---
 
-You can use automate **Font-Ranger** using Node.js API
+You can automate **Font-Ranger** using Node.js API
 
 Author
 ------
