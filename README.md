@@ -145,6 +145,11 @@ Options:
   -v, --version        Show version number                             [boolean]
 ```
 
+API
+---
+
+You can use automate **Font-Ranger** using Node.js API
+
 Author
 ------
 @doasync
